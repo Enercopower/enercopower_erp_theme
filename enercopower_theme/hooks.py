@@ -23,13 +23,14 @@ app_license = "mit"
 
 # Includes in <head>
 # ------------------
-
+app_include_css = ["style.bundle.css"]  # për Desk (/app)
+web_include_css = ["style.bundle.css"]  # për Website/Portal
 # include js, css files in header of desk.html
-app_include_css = "/assets/enercopower_theme/css/enercopower_theme.css"
+#app_include_css = ["/assets/enercopower_theme/css/enercopower_theme.css"]
 # app_include_js = "/assets/enercopower_theme/js/enercopower_theme.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/enercopower_theme/css/enercopower_theme.css"
+#web_include_css = ["/assets/enercopower_theme/css/enercopower_theme.css"]
 # web_include_js = "/assets/enercopower_theme/js/enercopower_theme.js"
 
 # include custom scss in every website theme (without file extension ".scss")
