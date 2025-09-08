@@ -25,7 +25,7 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/enercopower_theme/css/enercopower_theme.css"
+app_include_css = "/assets/enercopower_theme/css/enercopower_theme.css"
 # app_include_js = "/assets/enercopower_theme/js/enercopower_theme.js"
 
 # include js, css files in header of web template
