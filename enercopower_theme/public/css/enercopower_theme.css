@@ -1,19 +1,67 @@
 .navbar {
-    background-color: #007bff !important;  /* blu ERPNext style */
+    background-color: white !important;
+    border-bottom: 0.5px solid #122147 !important;
+}
+.search-bar .awesomplete input {
+    width: 100% !important;
+    padding-left: 36px;
+    height: 28px;
+    font-size: var(--text-sm);
+    font-weight: var(--weight-regular);
+    letter-spacing: .02em;
+    background-color: #122147;
+}
+#navbar-search{
+color:white !important;
+background-color: #122147 !important;
+
+}
+.layout-side-section {
+    background-color: #122147 !important;
+}
+.sidebar-item-label{
+    color:white;
 }
 
-/* Buttons primary */
-.btn-primary {
-    background-color: #007bff !important;
-    border-color: #0056b3 !important;
+.page-head .page-head-content{
+background-color:#122147 !important;
 }
 
-/* Links hover */
-.navbar a:hover {
-    color: #cce5ff !important;
+.icon {
+    fill: white !important;
+    stroke: white !important;
 }
 
-/* Sidebar active item */
-.sidebar-menu li.active {
-    background-color: #0056b3 !important;
+.title-text {
+    color: white !important;
 }
+
+html.chrome {
+    background-color: #122147 !important;
+}
+
+#page-Workspaces {
+    background-color: #122147;
+}
+.page-head.flex {
+    background-color: #122147;
+}
+button.btn-reset.standard-sidebar-label {
+    color: white;
+}
+.sidebar-item-label:hover{ color: #122147 !important;
+}
+
+
+input#navbar-search::placeholder {
+    color:white;
+}
+
+span.sidebar-item-label:active {
+    color: #122147 !important;
+}
+svg.es-icon.icon-md.sidebar-toggle-placeholder {
+    fill: white;
+    stroke: white;
+}
+
