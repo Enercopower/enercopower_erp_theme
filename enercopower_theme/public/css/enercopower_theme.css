@@ -95,8 +95,8 @@ a.onboarding-step.pending.active {
     color: white;
 }
 .onboarding-step.active .step-icon {
-    fill: #fff !important;   
-    stroke: #fff !important; 
+    fill: #fff !important;
+    stroke: #fff !important;
 }
 li.sidebar-label {
     color: white !important;
@@ -115,3 +115,26 @@ div#page-List\/Warehouse\/List
 body.no-breadcrumbs {
     background-color: #122147;
 }
+
+.widget.shortcut-widget-box {
+  background-color: #122147 !important;
+  color: #ffffff !important;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.widget.shortcut-widget-box .widget-title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff !important;
+  letter-spacing: 0.5px;
+}
+
+.widget.shortcut-widget-box .widget-body,
+.widget.shortcut-widget-box p,
+.widget.shortcut-widget-box span {
+  font-size: 13px;
+  color: #d1d5db !important;
+  line-height: 1.4;
+}
+
