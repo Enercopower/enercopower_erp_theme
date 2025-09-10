@@ -11,10 +11,10 @@
     letter-spacing: .02em;
     background-color: #122147;
 }
-#navbar-search{
-color:white !important;
-background-color: white !important;
-
+input#navbar-search {
+    background-color: #f2f2f2 !important;
+    color: #4B5563 !important;
+    border: 0.2px solid #4B5563;
 }
 .layout-side-section {
     background-color: #122147 !important;
@@ -54,7 +54,7 @@ button.btn-reset.standard-sidebar-label {
 
 
 input#navbar-search::placeholder {
-    color:white;
+    color:#4B5563 ;
 }
 
 svg.es-icon.icon-md.sidebar-toggle-placeholder {
@@ -277,4 +277,45 @@ span.liked-by.like-action.d-flex.align-items-center.not-liked {
 }
 li.followed-by {
     background-color: white;
+}
+.comment-input-header {
+    color: white !important;
+}
+
+.timeline-content {
+    color: white;
+}
+.form-sidebar-items svg.es-icon.icon-sm {
+    fill: white !important;
+    stroke: white !important;
+    stroke-width: 0.5px !important;
+}
+a.form-follow.text-sm {
+    color: black;
+}
+a.btn.btn-default.btn-sm.list-sidebar-button {
+    background-color: #122199;
+    color:white;
+}
+.text-muted {
+    color: white !important;
+}
+
+button.btn.btn-default.btn-sm.btn-paging.btn-info {
+    color: white;
+}
+button.btn.btn-default.btn-sm.filter-x-button {
+    background-color: grey !important;
+}
+button.btn.btn-default.btn-sm.btn-order {
+    background-color: lightgrey !important;
+}
+span.indicator-pill.blue.filterable.no-indicator-dot.ellipsis {
+    background-color: #122147;
+}
+
+.search-icon svg {
+    fill: gray !important;
+    stroke: gray !important;
+    color: gray !important;
 }
