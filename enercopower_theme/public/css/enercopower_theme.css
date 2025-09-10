@@ -137,4 +137,19 @@ body.no-breadcrumbs {
   color: #d1d5db !important;
   line-height: 1.4;
 }
+.widget.links-widget-box {
+  background-color: #122147;
+  color:white !important;
+}
 
+span.link-content.ellipsis {
+    color: white;
+
+}
+span.ellipsis {
+    color: white;
+}
+span.link-content.ellipsis.disabled-link {
+    color: white !important;
+    opacity: 0.5;
+}
