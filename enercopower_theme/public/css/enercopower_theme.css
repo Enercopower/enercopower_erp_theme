@@ -243,3 +243,38 @@ a.form-follow.text-sm {
 use.comment-icon {
     color: white;
 }
+div#page-List\/Item\/List {
+    background-color: #122147;
+}
+div#page-List\/Delivery\ Note\/List {
+    background-color: #122147;
+}
+div#page-List\/Material\ Request\/List {
+background-color: #122147;
+}
+.page-container {
+    background-color: #122147;
+}
+a.pill-label.ellipsis.explore-link {
+    color: white;
+}
+li.modified-by {
+    color: white;
+}
+li.created-by {
+    color: white;
+}
+.form-stats.d-flex {
+    color: white !important;
+}
+
+li.flex {
+    background-color: white;
+    border-radius: 5px;
+}
+span.liked-by.like-action.d-flex.align-items-center.not-liked {
+    color: black;
+}
+li.followed-by {
+    background-color: white;
+}
