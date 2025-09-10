@@ -98,3 +98,20 @@ a.onboarding-step.pending.active {
     fill: #fff !important;   
     stroke: #fff !important; 
 }
+li.sidebar-label {
+    color: white !important;
+}
+
+a.list-tag-preview {
+    color: white !important;
+}
+a.add-group-by {
+    color: white !important;
+}
+div#page-List\/Warehouse\/List
+ {
+    background-color: #122147;
+}
+body.no-breadcrumbs {
+    background-color: #122147;
+}
