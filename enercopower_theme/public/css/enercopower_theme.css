@@ -13,7 +13,7 @@
 }
 #navbar-search{
 color:white !important;
-background-color: #122147 !important;
+background-color: white !important;
 
 }
 .layout-side-section {
@@ -152,4 +152,94 @@ span.ellipsis {
 span.link-content.ellipsis.disabled-link {
     color: white !important;
     opacity: 0.5;
+}
+div#page-List\/Account\/List {
+    background-color: #122147;
+}
+div#page-List\/Company\/List {
+    background-color: #122147;
+}
+div#page-List\/Customer\/List {
+    background-color: #122147;
+}
+div#page-List\/Supplier\/List {
+    background-color: #122147;
+}
+div#page-List\/Sales\ Invoice\/List {
+    background-color: #122147;
+}
+div#page-List\/Item\/List {
+    background-color: #122147;
+}
+div#page-List\/Brand\/List {
+    background-color: #122147;
+}
+div#page-List\/UOM\/List {
+    background-color: #122147;
+}
+div#page-List\/Stock\ Reconciliation\/List {
+    background-color: #122147;
+}
+div#page-List\/Lead\/List {
+    background-color: #122147;
+}
+div#page-List\/Customer\ Group\/List {
+    background-color: #122147;
+}
+div#page-List\/Data\ Import\/List {
+    background-color: #122147;
+}
+div#page-Opening\ Invoice\ Creation\ Tool {
+    background-color: #122147;
+}
+div#page-Chart\ of\ Accounts\ Importer {
+    background-color: #122147;
+}
+div#page-List\/Letter\ Head\/List {
+    background-color: #122147;
+}
+div#page-List\/Email\ Account\/List {
+    background-color: #122147;
+}
+div#page-List\/Territory\/List {
+    background-color: #122147;
+}
+div#page-query-report {
+    background-color: #122147;
+}
+div#page-List\/Purchase\ Invoice\/List {
+    background-color: #122147;
+}
+div#page-List\/Journal\ Entry\/List {
+    background-color: #122147;
+}
+div#page-List\/Payment\ Entry\/List {
+    background-color: #122147;
+}
+div#page-dashboard-view {
+    background-color: #122147;
+}
+div#page-Accounts\ Settings {
+    background-color: #122147;
+}
+.form-sidebar.overlay-sidebar.hidden-xs.hidden-sm {
+    color: white;
+}
+span.form-sidebar-items {
+    color: white;
+}
+li.modified-by {
+    color: white;
+}
+li.created-by {
+    color: white;
+}
+a.pill-label.ellipsis.explore-link {
+    color: white;
+}
+a.form-follow.text-sm {
+    color: white;
+}
+use.comment-icon {
+    color: white;
 }
