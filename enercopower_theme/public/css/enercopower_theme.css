@@ -57,11 +57,44 @@ input#navbar-search::placeholder {
     color:white;
 }
 
-span.sidebar-item-label:active {
-    color: #122147 !important;
-}
 svg.es-icon.icon-md.sidebar-toggle-placeholder {
     fill: white;
     stroke: white;
 }
 
+.desk-sidebar-item.selected .sidebar-item-label {
+    color: #122147 !important;
+}
+svg.es-icon.icon-sm {
+    fill: #122147 !important;
+    stroke: #122147 !important;
+    stroke-width:0.5px;
+}
+
+.list-sidebar.overlay-sidebar.hidden-xs.hidden-sm.opened {
+    background-color: #122147;
+}
+.widget.onboarding-widget-box {
+    border: 2px solid #122147 !important;
+    border-radius: 10px !important;
+}
+.btn.btn-sm.btn-secondary.small {
+    background-color: #122147;
+    color: white;
+}
+button.btn.btn-default.btn-sm {
+    background-color: #122147 !important;
+    color: white;
+}
+svg.es-icon.es-line.step-icon.icon-md {
+    stroke: #122147;
+    stroke-width: 0.2px;
+}
+a.onboarding-step.pending.active {
+    background-color: #122147 !important;
+    color: white;
+}
+.onboarding-step.active .step-icon {
+    fill: #fff !important;   
+    stroke: #fff !important; 
+}
