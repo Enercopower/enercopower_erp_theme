@@ -320,10 +320,6 @@ span.indicator-pill.blue.filterable.no-indicator-dot.ellipsis {
     color: gray !important;
 }
 
-.page-content-wrapper {
-    background: url(https://scontent.fprn3-1.fna.fbcdn.net/v/t39.30808-6/480544284_999544862227081_4440369991656155957_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=EMix_47UzE0Q7kNvwEIozsf&_nc_oc=AdnBQqq4m3WnW7oltVKYOm6q12xbTsr2ce80ypQQNLonTB07HuUjUZy5A_o9J0m_7cg&_nc_zt=23&_nc_ht=scontent.fprn3-1.fna&_nc_gid=fM1zStAgV5l3LcHIpM2qbQ&oh=00_AfaBfDMn_BqlSs6DJw23ex9S2lQ9gB0ipEAAPwra5hKVPQ&oe=68CDFABA);
-}
-
 .page-card-head h4 {
     color: white !important;
 }
@@ -356,4 +352,8 @@ a.navbar-brand {
 }
 a.nav-link {
     display: none !important;
+}
+.page-content-wrapper {
+    background: url('https://cesp.gmu.edu/wp-content/uploads/2022/08/vietnam-energy.jpeg');
+    background-size: cover;
 }
