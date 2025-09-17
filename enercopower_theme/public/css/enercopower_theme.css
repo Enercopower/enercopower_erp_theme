@@ -357,3 +357,16 @@ a.nav-link {
     background: url('https://cesp.gmu.edu/wp-content/uploads/2022/08/vietnam-energy.jpeg');
     background-size: cover;
 }
+
+a.navbar-brand {
+    visibility: hidden !important;
+}
+.footer-col-left.col-sm-6.col-12 {
+    visibility: hidden !important;
+}
+.footer-col-right.col-sm-6.col-12.footer-powered {
+    visibility: hidden;
+}
+span.toggle-password.text-muted {
+    color: #122147 !important;
+}
