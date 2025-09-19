@@ -370,15 +370,65 @@ a.navbar-brand {
 span.toggle-password.text-muted {
     color: #122147 !important;
 }
-input#login_email {
-    border-radius: 30px !important;
+
+.layout-side-section {
+    height: 100%;
+    width: 250px;
+    background-color: #001f3f; 
+    color: #f0f8ff; 
+    padding: 20px 15px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.3);
+    overflow-y: auto; 
+    font-family: "Poppins", "Segoe UI", sans-serif; 
+    border-right: 1px solid #003366; 
 }
-input#login_password {
-    border-radius: 30px !important;
+
+
+.layout-side-section .sidebar-item-label,
+.layout-side-section .standard-sidebar-label {
+    color: #b0c4de;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #003366; 
+    padding-bottom: 5px;
 }
-button.btn.btn-sm.btn-primary.btn-block.btn-login {
-    border-radius: 50px !important;
+
+/* Ikonat */
+.layout-side-section .sidebar-item-icon svg {
+    fill: #b0c4de;
+    transition: fill 0.3s ease;
 }
-.login-content.page-card {
-    border-radius: 30px !important;
+
+
+.layout-side-section .standard-sidebar-item.selected {
+    background-color: #003366;
+    border-left: 4px solid #4da6ff;
+    border-radius: 6px;
+    color: #ffffff !important;
+    box-shadow: inset 0 0 8px rgba(77, 166, 255, 0.2);
+}
+
+.layout-side-section .standard-sidebar-item.selected a {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.layout-side-section .standard-sidebar-item.selected .sidebar-item-icon svg {
+    fill: #ffffff;
+}
+
+
+.layout-side-section .standard-sidebar-item:not(.selected):hover {
+    background-color: #002b55;
+    border-radius: 6px;
+    color: #ffffff !important;
+    border-left: 3px solid #4da6ff;
+    transition: all 0.2s ease-in-out;
+}
+
+.layout-side-section .standard-sidebar-item:not(.selected):hover .sidebar-item-icon svg {
+    fill: #ffffff;
 }
