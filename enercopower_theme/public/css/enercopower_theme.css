@@ -370,3 +370,15 @@ a.navbar-brand {
 span.toggle-password.text-muted {
     color: #122147 !important;
 }
+input#login_email {
+    border-radius: 30px !important;
+}
+input#login_password {
+    border-radius: 30px !important;
+}
+button.btn.btn-sm.btn-primary.btn-block.btn-login {
+    border-radius: 50px !important;
+}
+.login-content.page-card {
+    border-radius: 30px !important;
+}
