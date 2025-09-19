@@ -432,3 +432,89 @@ span.toggle-password.text-muted {
 .layout-side-section .standard-sidebar-item:not(.selected):hover .sidebar-item-icon svg {
     fill: #ffffff;
 }
+
+
+header.navbar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e6e9f0 !important;
+    padding: 0.6rem 1rem !important;
+    font-family: "Poppins", "Segoe UI", sans-serif !important;
+}
+
+
+header.navbar .navbar-brand img.app-logo {
+    height: 38px !important;
+    width: auto !important;
+    transition: transform 0.2s ease !important;
+}
+header.navbar .navbar-brand img.app-logo:hover {
+    transform: scale(1.05) !important;
+}
+
+
+header.navbar .navbar-nav .nav-link {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    color: #333333 !important;
+    padding: 0.5rem 0.75rem !important;
+    transition: color 0.2s ease, background-color 0.2s ease !important;
+}
+header.navbar .navbar-nav .nav-link:hover {
+    color: #0056b3 !important;
+    background-color: #f8f9fc !important;
+    border-radius: 6px !important;
+}
+
+
+#navbar-breadcrumbs {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #6c757d !important;
+}
+
+
+header.navbar .search-bar {
+    border: 1px solid #d9dee8 !important;
+    border-radius: 6px !important;
+    background: #fafbfe !important;
+    padding-left: 8px !important;
+    transition: all 0.2s ease !important;
+}
+header.navbar .search-bar:focus-within {
+    border-color: #4da6ff !important;
+    box-shadow: 0 0 0 3px rgba(77,166,255,0.15) !important;
+    background: #ffffff !important;
+}
+header.navbar .search-bar input.form-control {
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 14px !important;
+    background: transparent !important;
+}
+header.navbar .search-bar .search-icon svg {
+    fill: #6c757d !important;
+    margin-left: 6px !important;
+    transition: fill 0.2s ease !important;
+}
+header.navbar .search-bar:focus-within .search-icon svg {
+    fill: #4da6ff !important;
+}
+
+
+header.navbar .navbar-nav .nav-link svg {
+    fill: #6c757d !important;
+    transition: fill 0.2s ease !important;
+}
+header.navbar .navbar-nav .nav-link:hover svg {
+    fill: #4da6ff !important;
+}
+
+
+header.navbar .avatar-frame {
+    border-radius: 50% !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
