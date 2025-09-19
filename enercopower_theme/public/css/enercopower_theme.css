@@ -418,6 +418,7 @@ span.toggle-password.text-muted {
 
 .layout-side-section .standard-sidebar-item.selected .sidebar-item-icon svg {
     fill: #ffffff;
+    color:white !important;
 }
 
 
@@ -433,66 +434,71 @@ span.toggle-password.text-muted {
     fill: #ffffff;
 }
 
-
+/* HEADER NAVBAR - DARK BLUE STYLE */
 header.navbar {
-    background-color: #ffffff !important;
-    border-bottom: 1px solid #e6e9f0 !important;
-    padding: 0.6rem 1rem !important;
+    background-color: #20568b!important; /* dark navy */
+        border-bottom: 2px solid #f4faff !important;
+    padding: 0.8rem 1.2rem !important;
     font-family: "Poppins", "Segoe UI", sans-serif !important;
+    color: #f0f8ff !important;
 }
 
-
+/* LOGO */
 header.navbar .navbar-brand img.app-logo {
-    height: 38px !important;
+    height: 40px !important;
     width: auto !important;
+    filter: brightness(0) invert(1) !important; /* bën logon white nëse është png transparent */
     transition: transform 0.2s ease !important;
 }
 header.navbar .navbar-brand img.app-logo:hover {
-    transform: scale(1.05) !important;
+    transform: scale(1.08) !important;
 }
 
-
+/* NAV LINKS */
 header.navbar .navbar-nav .nav-link {
     font-size: 15px !important;
     font-weight: 500 !important;
-    color: #333333 !important;
-    padding: 0.5rem 0.75rem !important;
+    color: #b0c4de !important; /* blu e lehtë */
+    padding: 0.5rem 0.9rem !important;
     transition: color 0.2s ease, background-color 0.2s ease !important;
-}
-header.navbar .navbar-nav .nav-link:hover {
-    color: #0056b3 !important;
-    background-color: #f8f9fc !important;
     border-radius: 6px !important;
 }
+header.navbar .navbar-nav .nav-link:hover {
+    color: #ffffff !important;
+    background-color: #002b55 !important;
+}
 
-
+/* BREADCRUMBS */
 #navbar-breadcrumbs {
     font-size: 14px !important;
     font-weight: 400 !important;
-    color: #6c757d !important;
+    color: #9fb9d9 !important;
 }
 
-
+/* SEARCH BAR */
 header.navbar .search-bar {
-    border: 1px solid #d9dee8 !important;
+    border: 1px solid #004080 !important;
     border-radius: 6px !important;
-    background: #fafbfe !important;
-    padding-left: 8px !important;
+    background: #002b55 !important;
     transition: all 0.2s ease !important;
 }
 header.navbar .search-bar:focus-within {
     border-color: #4da6ff !important;
-    box-shadow: 0 0 0 3px rgba(77,166,255,0.15) !important;
-    background: #ffffff !important;
+    box-shadow: 0 0 0 3px rgba(77,166,255,0.25) !important;
+    background: #003366 !important;
 }
 header.navbar .search-bar input.form-control {
     border: none !important;
     box-shadow: none !important;
     font-size: 14px !important;
+    color: #ffffff !important;
     background: transparent !important;
 }
+header.navbar .search-bar input.form-control::placeholder {
+    color: #b0c4de !important;
+}
 header.navbar .search-bar .search-icon svg {
-    fill: #6c757d !important;
+    fill: #b0c4de !important;
     margin-left: 6px !important;
     transition: fill 0.2s ease !important;
 }
@@ -500,16 +506,16 @@ header.navbar .search-bar:focus-within .search-icon svg {
     fill: #4da6ff !important;
 }
 
-
+/* NAVBAR ICONS */
 header.navbar .navbar-nav .nav-link svg {
-    fill: #6c757d !important;
+    fill: #b0c4de !important;
     transition: fill 0.2s ease !important;
 }
 header.navbar .navbar-nav .nav-link:hover svg {
-    fill: #4da6ff !important;
+    fill: #ffffff !important;
 }
 
-
+/* USER AVATAR */
 header.navbar .avatar-frame {
     border-radius: 50% !important;
     font-weight: 600 !important;
@@ -517,4 +523,14 @@ header.navbar .avatar-frame {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+    background-color: #003366 !important;
+    color: #ffffff !important;
+    border: 2px solid #4da6ff !important;
+}
+button.btn-reset.standard-sidebar-label {
+    visibility: hidden !important;
+}
+svg.es-icon.icon-sm {
+    stroke: white !important;
+    fill: white !important;
 }
