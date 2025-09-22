@@ -534,3 +534,10 @@ svg.es-icon.icon-sm {
     stroke: white !important;
     fill: white !important;
 }
+.desk-sidebar-item.selected .sidebar-item-label {
+    color: #ffffff; 
+}
+
+.desk-sidebar-item.selected .item-anchor {
+    color: #ffffff;
+}
