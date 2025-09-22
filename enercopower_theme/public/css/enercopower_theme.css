@@ -537,3 +537,6 @@ svg.es-icon.icon-sm {
 .desk-sidebar-item.selected .item-anchor {
     color: #ffffff;
 }
+ul#navbar-breadcrumbs a {
+    color: white !important;
+}
